@@ -9,7 +9,7 @@
 Summary:       ANother Tool for Language Recognition
 Name:          %{?scl_prefix}antlr
 Version:       2.7.7
-Release:       47.1%{?dist}
+Release:       47.2%{?dist}
 Epoch:         0
 License:       Public Domain
 URL:           http://www.antlr2.org/
@@ -194,6 +194,9 @@ cd ../..
 %endif
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:2.7.7-47.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:2.7.7-47.1
 - Automated package import and SCL-ization
 
